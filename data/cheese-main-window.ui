@@ -51,8 +51,7 @@
                             <property name="action-target">"photo"</property>
                             <property name="tooltip_text" translatable="yes">Photo mode</property>
                             <property name="label" translatable="yes">Photo</property>
-                            <property name="visible">True</property>
-                            <property name="visible">True</property>
+                            <property name="visible">False</property>
                             <style>
                               <class name="text-button"/>
                             </style>
@@ -64,7 +63,7 @@
                             <property name="action-target">"video"</property>
                             <property name="tooltip_text" translatable="yes">Video mode</property>
                             <property name="label" translatable="yes">Video</property>
-                            <property name="visible">True</property>
+                            <property name="visible">False</property>
                             <style>
                               <class name="text-button"/>
                             </style>
@@ -76,7 +75,7 @@
                             <property name="action-target">"burst"</property>
                             <property name="tooltip_text" translatable="yes">Photo burst mode</property>
                             <property name="label" translatable="yes">Burst</property>
-                            <property name="visible">True</property>
+                            <property name="visible">False</property>
                             <style>
                               <class name="text-button"/>
                             </style>

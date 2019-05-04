@@ -124,6 +124,8 @@ public class Cheese.Application : Gtk.Application
                                     | Gdk.EventMask.KEY_RELEASE_MASK);
             main_window.key_press_event.connect (on_webcam_key_pressed);
 
+            update_mode(MediaMode.VIDEO);
+
             main_window.show ();
             setup_camera ();
             preferences_dialog = new PreferencesDialog (camera);
